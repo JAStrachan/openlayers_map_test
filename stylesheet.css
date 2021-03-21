@@ -1,0 +1,25 @@
+.map {
+    height: 400px;
+    width: 100%;
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+h2 {
+    font-family: Tahoma;
+}
+
+.grid {
+    display: grid;
+    grid-column-gap: 50px;
+}
+
+.nav {
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+#james {
+    font-size: large;
+}
